@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-color: #0E2387;
+}
+.main-container2{
+    background-color: #0E2387
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25px;
+    /* margin-top: 15px; */
+}
+.nav-list-item{
+    color: white;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+li:hover{
+    color: #2B93C7;
+    cursor: pointer;
+}
+.nav-logo{
+    font-size: 35px;
+    color: white;
+}
+.logo3{
+    height: 40px;
+    width: 40px;
+}
+.logo-container{
+    display: flex;
+    padding-left: 10px;
+}
+.button:hover{
+    border: 1px, solid white;
+}
+.nav-btn1{
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #0E2387;
+    padding-right: 30px;
+}
+.nav-btn1:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.nav-btn2{
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #0E2387;
+}
+.nav-btn2:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.nav-button-container{
+    padding-right: 10px;
+}
+.body-container{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.header1{
+    font-size: 40px;
+    color: white;
+}
+.header2{
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+.header3{
+    font-size: 20px;
+    color: white;
+    padding-top: 40px;
+}
+.main-button-container{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 530px;
+}
+.btn1{
+    height: 55px;
+    width: 250px;
+    font-size: 18px;
+    border: 2px solid white;
+    background-color: #0E2387;
+    color: white;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: white;
+    color: #0E2387;
+    cursor: pointer;
+}
+.btn2{
+    height: 55px;
+    width: 250px;
+    font-size: 18px;
+    border: 2px solid white;
+    background-color: #0E2387;
+    color: white;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: white;
+    color: #0E2387;
+    cursor: pointer;
+}
+.img1{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    bottom: 400px;
+}
